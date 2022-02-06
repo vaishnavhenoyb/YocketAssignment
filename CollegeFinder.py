@@ -3,9 +3,9 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import time
 
-cap = {'binary_location': r"C:\Users\Vaishnav\Downloads\chromedriver_win32\chromedriver"}
+cap = {'binary_location': r"LocationPath"}
 driver = webdriver.Chrome(desired_capabilities=cap,
-                          executable_path=r"C:\Users\Vaishnav\Downloads\chromedriver_win32\chromedriver")
+                          executable_path=r"LocationPath")
 action = ActionChains(driver)
 
 # maximize the window size
